@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+html,body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+#description {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+#tooltip {
+  visibility: hidden;
+  background-color: black;
+  color: white;
+  opacity: 0.9;
+  position: absolute;
+  user-select: none;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
